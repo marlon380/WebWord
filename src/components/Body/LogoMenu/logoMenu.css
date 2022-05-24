@@ -1,0 +1,19 @@
+.container-logos{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.container-logos img{
+  padding: 10px;
+  width: 20%;
+  height: 0%;
+}
+
+.container-logos img:hover{
+  transform: scale(1.2);
+}
+
+.puma-logo{
+  margin-top: -4%;
+}

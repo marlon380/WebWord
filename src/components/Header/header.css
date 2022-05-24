@@ -1,0 +1,109 @@
+a{
+  color: #fff !important;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover{
+  color: #00bac6 !important;
+  cursor: pointer;
+}
+
+.logo{
+  margin-top: -1%;
+  max-height: 25px;
+  min-width: 100px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #252323;
+  height: 8vh;
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  z-index: 10;
+}
+
+.nav-list-none{
+  display: none;
+}
+
+@media (max-width: 999px){
+  .nav-list{
+  position: absolute;
+  top: 8vh;
+  right: 0;
+  width: 50vw;
+  height: 92vh;
+  background-color: #252323;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  }
+  .nav-list li{
+    margin-left: 0;
+  }
+  .mobile-menu{
+    display: block !important;
+  }
+  .nav-list.active{
+    transform: translateX(0);
+  }
+}
+
+.nav-list li{
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu{
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  margin: 8px;
+}
+
+/* .container{
+  background-color: #252323;
+}
+
+.topoPage{
+    background-color: #252323;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo_topo{
+  margin-top: 5px;
+  max-height: 25px;
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.selectMenu{
+  display: inline;
+    
+}
+
+.selectMenu a{
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.selectMenu a:hover{
+color: #00bac6; 
+} */

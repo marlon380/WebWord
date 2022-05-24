@@ -1,0 +1,80 @@
+.container-img{
+  width: 100%;  
+}
+
+.slick-prev{
+  z-index: 1;
+  left: 20px;
+}
+
+.slick-next{
+  z-index: 9;
+  right: 20px;
+}
+
+@media (min-width: 660px) {
+  .slick-prev:before{
+    content: url(../../../img/setaEsq.png);
+  }
+  .slick-next:before{
+    content: url(../../../img/setaDireita.png);
+  }
+}
+
+/* #adjustDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.slick-slide img {
+  margin: auto;
+  width: 100%;
+}
+
+.slick-prev{
+  z-index: 1;
+  left: 20px;
+}
+
+.slick-prev:before{
+  content: url(../../../img/setaEsq.png);
+}
+
+.slick-next{
+    z-index: 9;
+    right: 20px;
+}
+
+.slick-next:before{
+  content: url(../../../img/setaDireita.png);
+}
+
+.slick-dots{
+  margin: 0 auto;
+  width: 50%;
+  position: relative;
+  bottom: 63px;
+}
+
+.slick-dots li{
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.slick-dots li button:hover{
+  background: #00bac6
+}
+
+li.slick-active button{
+  background: #00bac6!important;
+}
+
+.slick-dots li button{
+  font-size: 0px;
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  background: transparent;
+  cursor: pointer;
+} */

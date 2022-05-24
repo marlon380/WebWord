@@ -1,0 +1,33 @@
+.container-menu2{
+  display: flex;
+  background-color: #eeeeee;
+  margin-top: 5%;
+}
+
+.container-menu2 img{
+  width: 50%;
+}
+
+.container-menu2 h1{
+  font-size: 2vw;
+}
+
+.container-imgs-column1{
+  display: flex;
+  align-items: center;
+}
+
+.container-imgs-column2{
+  display: flex;
+  align-items: center;
+}
+
+.container-imgs-column1 div{
+  text-align: center;
+  padding: 10px;
+}
+
+.container-imgs-column2 div{
+  text-align: center;
+  padding: 10px;
+}
